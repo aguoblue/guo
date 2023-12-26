@@ -1,0 +1,183 @@
+{
+  "main": {
+    "id": "ab74aacdd3475661",
+    "type": "split",
+    "children": [
+      {
+        "id": "e8f8bc732a4a9243",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0204be04c20cc3d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JA/微服务/异步通信.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5910151d28c6f029",
+    "type": "split",
+    "children": [
+      {
+        "id": "4aeb4b67f44edd21",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e89524c8690b3da9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7a4d33ff925e1503",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f60c74b211da51ba",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "0f600a475a0b3e78",
+    "type": "split",
+    "children": [
+      {
+        "id": "af14c1458e731a7e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7bbf07f48fc531f6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "JA/微服务/异步通信.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "506782071f6e9e83",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "JA/微服务/异步通信.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "aa9a5ed16f02cf47",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f26515bb9759ebe6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "JA/微服务/异步通信.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "0204be04c20cc3d9",
+  "lastOpenFiles": [
+    "JA/微服务/docker.md",
+    "JA/微服务/异步通信.md",
+    "JA/画布.canvas",
+    "JA/微服务",
+    "未命名",
+    "JA/苍穹/流程.md",
+    "webrtc/webRtc.md",
+    "markdown.md",
+    "webrtc",
+    "JA/苍穹/数据库设计文档.md",
+    "JA/Javaweb/流程.md",
+    "KSP/KSP.md",
+    "JA/苍穹",
+    "JA/mybatis/mybatis-plus.md",
+    "KSP",
+    "JA/mybatis/mybatis.md",
+    "JA/mybatis",
+    "附件",
+    "JA/mybatis.md",
+    "查阅/隐身/隐身相关.md",
+    "JA/Javaweb",
+    "JA",
+    "unity/unity.md",
+    "查阅/隐身",
+    "unity/未命名.md",
+    "unity/shortcut.md",
+    "unity/images/2.png",
+    "unity/images/1.png",
+    "unity/images/龙神勇士.png",
+    "unity/images/派大星.png"
+  ]
+}
