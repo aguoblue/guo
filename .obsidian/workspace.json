@@ -11,11 +11,14 @@
             "id": "d4d66cba27aeb55b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "大创PPT.md",
-                "mode": "source",
-                "source": false
+                "file": "查阅/ls/提取/图生文/多模态.canvas",
+                "viewState": {
+                  "x": -280,
+                  "y": 130,
+                  "zoom": -1.1317898725555413
+                }
               }
             }
           }
@@ -85,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "大创PPT.md",
+                "file": "查阅/ls/提取/图生文/多模态.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "大创PPT.md",
+                "file": "查阅/ls/提取/图生文/多模态.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "大创PPT.md"
+                "file": "查阅/ls/提取/图生文/多模态.canvas"
               }
             }
           }
@@ -146,18 +149,34 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e89524c8690b3da9",
+  "active": "d4d66cba27aeb55b",
   "lastOpenFiles": [
+    "查阅/ls/记录.md",
+    "查阅/ls/开题报告.md",
+    "查阅/ls/孪生关系.md",
+    "查阅/ls/diffusion.md",
+    "查阅/脑篇/笔迹.md",
+    "查阅/隐身/隐身相关.md",
+    "查阅/支部/自我批评.md",
+    "查阅/支部/记录.canvas",
+    "Pasted image 20240314092229.png",
+    "[.md",
+    "Pasted image 20240122160848.png",
+    "Pasted image 20240122160804.png",
+    "Pasted image 20240122160403.png",
+    "Pasted image 20240122160544.png",
+    "Pasted image 20240314092339.png",
+    "Pasted image 20240314092305.png",
+    "Pasted image 20240122160600.png",
+    "README.md",
+    "大创PPT.md",
     "查阅/3d/部署slam系统",
     "查阅/3d/slam 14.md",
     "查阅/3d/isaac.md",
     "JA/project/austin/问题.md",
     "JA/project/austin/快速部署.md",
     "JA/project/austin/笔记.md",
-    "markdown.md",
-    "README.md",
     "力扣/提醒.md",
-    "查阅/脑篇/笔迹.md",
     "查阅/脑篇",
     "查阅/3d/高斯溅射.md",
     "查阅/3d",
@@ -168,33 +187,18 @@
     "JA/专业技能/规则引擎/Drools.md",
     "JA/专业技能/函数式编程/imgs/image-20240301105938703.png",
     "JA/专业技能/函数式编程/imgs/image-20240129152419304.png",
-    "JA/专业技能/函数式编程/imgs/2.png",
-    "JA/专业技能/函数式编程/imgs/1.png",
     "JA/专业技能/函数式编程/imgs",
     "JA/专业技能/函数式编程",
     "JA/专业技能/JVM/jvm.md",
-    "[.md",
     "JA/专业技能/media/xmind/算法.xmind",
     "JA/专业技能/media/xmind/SpringCloud2020.xmind",
     "JA/专业技能/media/xmind/Spring.xmind",
     "JA/专业技能/media/xmind/Network.xmind",
     "JA/专业技能/media/xmind/Redis.xmind",
-    "JA/专业技能/media/xmind/Mysql.xmind",
-    "JA/专业技能/media/pictures/SpringCloud.assets/image-20210223153533186.png",
-    "JA/专业技能/media/pictures/SpringCloud.assets/image-20201222090531185.png",
-    "JA/专业技能/media/pictures/SpringCloud.assets/image-20201222090455797.png",
-    "JA/专业技能/media/pictures/SpringCloud.assets/image-20201222090512129.png",
-    "JA/专业技能/media/pictures/SpringCloud.assets/clipboard.png",
-    "JA/专业技能/media/pictures/Redis.assets/缓存穿透处理流程-redis.png",
     "JA/专业技能/JavaInterview-master/docs/SpringCloud.md",
     "JA/专业技能/JavaInterview-master/docs/SpringBoot.md",
     "JA/专业技能/JavaInterview-master/docs/Spring.md",
     "JA/专业技能/JavaInterview-master/docs/Redis.md",
-    "JA/专业技能/JavaInterview-master/docs/NetWork.md",
-    "JA/专业技能/JavaInterview-master/docs/MySql.md",
-    "JA/专业技能/JavaInterview-master/docs/Mybatis.md",
-    "JA/专业技能/JavaInterview-master/docs/Linux.md",
-    "JA/专业技能/JavaInterview-master/docs/JVM.md",
     "JA/project/SaaS/短链接管理模块.canvas",
     "JA/project/SaaS/短链接分组模块.canvas",
     "JA/专业技能/rocketmq/rocketmq.canvas",
@@ -202,7 +206,6 @@
     "查阅/ls/unity和gpt/v2/v2.canvas",
     "JA/画布.canvas",
     "查阅/ls/unity和gpt/v1/gpt-unity.canvas",
-    "JA/project/SaaS/功能扩展和补充.canvas",
-    "JA/project/SaaS/流程架构.canvas"
+    "JA/project/SaaS/功能扩展和补充.canvas"
   ]
 }
