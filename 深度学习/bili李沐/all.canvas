@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"859b1b8e7eab3989","x":-720,"y":-160,"width":250,"height":60,"type":"text","text":"线性回归"},
+		{"id":"e5df2639408a4f38","x":-360,"y":-220,"width":250,"height":60,"type":"text","text":""}
+	],
+	"edges":[
+		{"id":"a2474a6676cceb07","fromNode":"859b1b8e7eab3989","fromSide":"right","toNode":"e5df2639408a4f38","toSide":"left"}
+	]
+}

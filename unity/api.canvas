@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"id":"a0a34e535694398a","x":-565,"y":-340,"width":250,"height":60,"type":"text","text":"GetComponent"},
+		{"id":"6d9a4a9d2ee8d509","x":-600,"y":-240,"width":250,"height":60,"type":"text","text":"GetComponentInChildren"},
+		{"id":"590207239f2a8388","x":-725,"y":100,"width":250,"height":60,"type":"text","text":"Input.GetAxisRaw"},
+		{"id":"7189e7c41183e1c6","x":400,"y":-80,"width":250,"height":60,"type":"text","text":"animator.SetFloat"},
+		{"id":"4a06f91548638612","x":180,"y":-310,"width":250,"height":60,"type":"text","text":"Destroy"},
+		{"id":"56655e6a0bb9a64a","x":180,"y":360,"width":250,"height":60,"type":"text","text":"Mathf.Approximately"},
+		{"id":"7a06324f7c0e07b3","x":-740,"y":200,"width":480,"height":60,"type":"text","text":"Input.GetKey(KeyCode.LeftShift)"}
+	],
+	"edges":[]
+}

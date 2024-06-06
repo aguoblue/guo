@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"4a2d475fc1933205","type":"text","text":"maven常用命令","x":-1080,"y":-100,"width":250,"height":60},
+		{"id":"7a49b34642a28330","x":-680,"y":-220,"width":250,"height":60,"type":"text","text":"clean"},
+		{"id":"8ec49653825c77ea","x":-680,"y":-70,"width":250,"height":60,"type":"text","text":"compile"},
+		{"id":"0cc2dd63e5a6d5cc","x":-680,"y":60,"width":250,"height":60,"type":"text","text":"test"},
+		{"id":"057b95376399ada7","x":-680,"y":180,"width":250,"height":60,"type":"text","text":"package"},
+		{"id":"0853e8388776c82b","x":-680,"y":280,"width":250,"height":60,"type":"text","text":"install"},
+		{"id":"3bd55f0cef4afbb1","x":-680,"y":400,"width":250,"height":60,"type":"text","text":"deploy"},
+		{"id":"a4315fd5f3ff49a1","x":-1140,"y":580,"width":250,"height":60,"type":"text","text":"maven依赖版本冲突"},
+		{"id":"403f557753ab35e5","x":-805,"y":550,"width":250,"height":60,"type":"text","text":"exclusion排除依赖"},
+		{"id":"7c205609114ce6b5","x":-805,"y":680,"width":505,"height":80,"type":"text","text":"使用dependencyManagement锁定版本号，通常在父工程对依赖的版本统一管理"}
+	],
+	"edges":[]
+}

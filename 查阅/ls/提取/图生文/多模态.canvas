@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"0e64fbb8681dfa59","x":-360,"y":-120,"width":250,"height":60,"type":"text","text":"**BLIP**"},
+		{"id":"63c3129768d6d836","x":125,"y":-240,"width":250,"height":60,"type":"text","text":"模型结构"},
+		{"id":"adbce6b2074d9549","x":460,"y":-420,"width":520,"height":180,"type":"text","text":"**BLIP引入了编码器-解码器的多模态混合结构MED**（ Multimodal mixture of Encoder-Decoder）**，能够有效地进行多任务预学习和迁移学习。**MED包括两个单模态编码器（lmage Encoder，Text Encoder），一个以图像为基础的编码器（image-grounded text encoder）和一个以图像为基础的解码器（image-grounded text decoder）。"},
+		{"id":"9b164880eb51b0d6","x":-712,"y":40,"width":705,"height":140,"type":"text","text":"**BLIP**(Bootstrapping Language-Image Pretraining)是**salesforce**在2022年提出的多模态框架，是理解和生成的统一，引入了跨模态的编码器和解码器，实现了跨模态信息流动，在多项视觉和语言任务取得SOTA。在AIGC中通常用来给图像生成prompt，好的prompt对交叉注意力的微调非常关键，例如ControlNet中的Automatic Prompt就是BLIP生成的。"},
+		{"id":"74e5a3c287a265dc","x":125,"y":-90,"width":250,"height":60,"type":"text","text":"训练方法"},
+		{"id":"0840f10f6525fb17","x":-360,"y":400,"width":250,"height":60,"type":"text","text":"## BLIP-2"},
+		{"id":"bdb7cc7303cb1c59","x":-660,"y":560,"width":550,"height":120,"type":"text","text":"Salesforce在2023年提出 BLIP-2， 通过利用预训练的视觉模型和语言模型来提升多模态效果和降低训练成本，预训练的视觉模型能够提供高质量的视觉表征，预训练的语言模型则提供了强大的语言生成能力。"},
+		{"id":"17c757389cbe88b9","x":400,"y":310,"width":480,"height":120,"type":"text","text":"**BLIP-2** 由预训练的**Image Encoder**，预训练的**Large Language Model**，和一个可学习的 **Q-Former** 组成。"},
+		{"id":"399e0e98412a93db","x":40,"y":370,"width":250,"height":60,"type":"text","text":"模型结构"},
+		{"id":"ea1b3f21a8290461","x":-1540,"y":150,"width":250,"height":60,"type":"text","text":"图生文模型"}
+	],
+	"edges":[
+		{"id":"b6c991df2be80a9a","fromNode":"0e64fbb8681dfa59","fromSide":"bottom","toNode":"9b164880eb51b0d6","toSide":"top"},
+		{"id":"b1bb4e8b95d81365","fromNode":"0e64fbb8681dfa59","fromSide":"right","toNode":"63c3129768d6d836","toSide":"left"},
+		{"id":"d95c96cf0fd1d168","fromNode":"63c3129768d6d836","fromSide":"right","toNode":"adbce6b2074d9549","toSide":"left"},
+		{"id":"c0d49fc811a89de3","fromNode":"0840f10f6525fb17","fromSide":"bottom","toNode":"bdb7cc7303cb1c59","toSide":"top"},
+		{"id":"5b08a13f57718c88","fromNode":"0840f10f6525fb17","fromSide":"right","toNode":"399e0e98412a93db","toSide":"left"},
+		{"id":"2e7035b39995aeb2","fromNode":"399e0e98412a93db","fromSide":"right","toNode":"17c757389cbe88b9","toSide":"left"}
+	]
+}

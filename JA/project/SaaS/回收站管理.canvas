@@ -1,0 +1,36 @@
+{
+	"nodes":[
+		{"id":"d7c98ce885390e96","x":-369,"y":-313,"width":250,"height":60,"type":"text","text":"短链接移至回收站"},
+		{"id":"0f10048ff5df65c4","x":-369,"y":-140,"width":250,"height":60,"type":"text","text":"回收站分页查询"},
+		{"id":"65c5be4e07417d61","x":-369,"y":40,"width":250,"height":60,"type":"text","text":"短链接从回收站恢复"},
+		{"id":"e8455a83339dd3ad","x":-369,"y":240,"width":250,"height":60,"type":"text","text":"从回收站删除"},
+		{"id":"c511fe6094a88d87","x":-20,"y":-349,"width":340,"height":129,"type":"text","text":"RecycleBinSaveReqDTO\n\ngid\nfullShortUrl"},
+		{"id":"91e340f8e0c06b85","x":460,"y":-331,"width":320,"height":93,"type":"text","text":"更新数据库t_link\nenableStatus为1，未启用"},
+		{"id":"f4ab960edc8cfa3e","x":-200,"y":-409,"width":250,"height":60,"type":"text","text":"admin远程调用"},
+		{"id":"eeac954b47f38b21","x":-20,"y":-140,"width":250,"height":60,"type":"text","text":"gidList"},
+		{"id":"ee56db3346a92314","x":360,"y":-150,"width":290,"height":80,"type":"text","text":"根据每个gid查数据库里enableStatus为1的短链接"},
+		{"id":"cbd64bafa4ee7b72","x":740,"y":-140,"width":250,"height":60,"type":"text","text":"返回"},
+		{"id":"f22688d421056029","type":"text","text":"admin远程调用","x":-220,"y":-200,"width":250,"height":60},
+		{"id":"95edc72d09158201","x":-35,"y":10,"width":280,"height":120,"type":"text","text":"RecycleBinRecoverReqDTO\n\ngid\nfullShortUrl"},
+		{"id":"d6c3ebd15aa3b205","x":865,"y":-314,"width":250,"height":60,"type":"text","text":"删除redis缓存"},
+		{"id":"32338a8471b9e816","x":760,"y":40,"width":290,"height":60,"type":"text","text":"删除redis可能的空值缓存"},
+		{"id":"7ba32f856a593b8e","x":380,"y":25,"width":290,"height":90,"type":"text","text":"更新数据库t_link\nenableStatus为0，启用"},
+		{"id":"c6a0d8710321423b","x":-35,"y":210,"width":315,"height":120,"type":"text","text":"RecycleBinRemoveReqDTO\n\ngid\nfullShortUrl"},
+		{"id":"2e8142e58c7bf9e5","x":420,"y":225,"width":320,"height":90,"type":"text","text":"更新数据库t_link\ndelFlag为1，del_time时间"},
+		{"id":"f80e4f02d31ea117","type":"text","text":"admin远程调用","x":-285,"y":180,"width":250,"height":60},
+		{"id":"3d83653c87bebf28","type":"text","text":"admin远程调用","x":-285,"y":-20,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"2129c856a17915f4","fromNode":"d7c98ce885390e96","fromSide":"right","toNode":"c511fe6094a88d87","toSide":"left"},
+		{"id":"cfb16ac87ae33ee9","fromNode":"c511fe6094a88d87","fromSide":"right","toNode":"91e340f8e0c06b85","toSide":"left"},
+		{"id":"a6f5141eec3a182c","fromNode":"0f10048ff5df65c4","fromSide":"right","toNode":"eeac954b47f38b21","toSide":"left"},
+		{"id":"02b12bd722b5d19d","fromNode":"eeac954b47f38b21","fromSide":"right","toNode":"ee56db3346a92314","toSide":"left"},
+		{"id":"bff6027d42ecbfea","fromNode":"ee56db3346a92314","fromSide":"right","toNode":"cbd64bafa4ee7b72","toSide":"left"},
+		{"id":"2d28df7e3d654b34","fromNode":"65c5be4e07417d61","fromSide":"right","toNode":"95edc72d09158201","toSide":"left"},
+		{"id":"494487279c5ab929","fromNode":"95edc72d09158201","fromSide":"right","toNode":"7ba32f856a593b8e","toSide":"left"},
+		{"id":"91d5e2c7fbc518b8","fromNode":"91e340f8e0c06b85","fromSide":"right","toNode":"d6c3ebd15aa3b205","toSide":"left"},
+		{"id":"ea3bcabe299cb890","fromNode":"7ba32f856a593b8e","fromSide":"right","toNode":"32338a8471b9e816","toSide":"left"},
+		{"id":"eac424f64320b22c","fromNode":"e8455a83339dd3ad","fromSide":"right","toNode":"c6a0d8710321423b","toSide":"left"},
+		{"id":"474cd63013a71ba5","fromNode":"c6a0d8710321423b","fromSide":"right","toNode":"2e8142e58c7bf9e5","toSide":"left"}
+	]
+}

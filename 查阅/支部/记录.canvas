@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"362cf0fccbb075f2","x":-560,"y":-120,"width":250,"height":60,"type":"text","text":"1月22"},
+		{"id":"41377b799e4dc774","x":-120,"y":-240,"width":250,"height":60,"type":"text","text":"党员大会"},
+		{"id":"cc862ccf0d4c7197","x":-120,"y":-90,"width":250,"height":60,"type":"text","text":"线上"},
+		{"id":"64920c301882d0dc","x":-620,"y":-400,"width":250,"height":60,"type":"text","text":"信通五"},
+		{"id":"ae1453c3441fb781","x":280,"y":-270,"width":250,"height":60,"type":"text","text":"民主评议"},
+		{"id":"3f5932f0cffec10a","x":-80,"y":160,"width":250,"height":60,"type":"text","text":"主题党日"}
+	],
+	"edges":[
+		{"id":"3cfe6bb7996c34e8","fromNode":"362cf0fccbb075f2","fromSide":"right","toNode":"41377b799e4dc774","toSide":"left"},
+		{"id":"51b690108e61866f","fromNode":"362cf0fccbb075f2","fromSide":"right","toNode":"cc862ccf0d4c7197","toSide":"left"},
+		{"id":"3f4900458dbdb8c7","fromNode":"362cf0fccbb075f2","fromSide":"right","toNode":"3f5932f0cffec10a","toSide":"left"}
+	]
+}
